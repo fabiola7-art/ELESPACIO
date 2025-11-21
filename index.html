@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EL ESPACIO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<header class="site-header">
+    <nav class="main-nav menu-pdf">
+        <a onclick="mostrarSeccion('inicio')" class="active">INICIO</a>
+        <a onclick="mostrarSeccion('marte')">MARTE</a>
+        <a onclick="mostrarSeccion('venus')">VENUS</a>
+        <a onclick="mostrarSeccion('jupiter')">JÚPITER</a>
+        <a onclick="mostrarSeccion('sol')">SOL</a>
+    </nav>
+</header>
+
+<!-- ========================================================= -->
+<!-- ======================= INICIO ========================== -->
+<!-- ========================================================= -->
+<section id="inicio" class="page" style="display:block;">
+    <h1 class="titulo">Bienvenido al Universo  </h1>
+    <p class="subtitulo">Explora nuestro recorrido por los misterios del espacio.</p>
+</section>
+
+
+<!-- ========================================================= -->
+<!-- ======================  MARTE  ========================== -->
+<!-- ========================================================= -->
+<section id="marte" class="page" style="display:none; position:relative; min-height:1800px;">
+
+    <h1 class="titulo" style="position:absolute; top:120px; left:120px; text-align:left;">MARTE</h1>
+
+    <!-- IMAGEN PRINCIPAL DERECHA -->
+    <div class="img-1"
+         style="position:absolute; top:80px; left:900px; width:550px; height:350px; border-radius:12px;
+         background-image:url('https://futuroelectrico.com/wp-content/uploads/2022/09/curiosidades-de-marte.jpg');
+         background-size:cover; background-position:center;">
+    </div>
+
+    <!-- TEXTOS BAJO IMAGEN -->
+    <div class="texto-1a">
+        Marte es el cuarto planeta del Sistema Solar, llamado "el planeta rojo" por su superficie cubierta de óxido.
+    </div>
+
+    <div class="texto-1b">
+        Su atmósfera es tenue y presenta tormentas de polvo gigantes que pueden cubrir todo el planeta.
+    </div>
+
+    <!-- TÍTULO SEGUNDA SECCIÓN -->
+    <div class="titulo-2">Exploración de Marte</div>
+
+    <div class="texto-2">
+        Rovers como Curiosity y Perseverance analizan su geología y buscan rastros de vida antigua.
+    </div>
+
+    <div class="img-2"></div>
+
+    <!-- FRANJA AMARILLA AZULADA -->
+    <div class="franja-amarilla"></div>
+
+    <!-- TÍTULO SECCIÓN 3 -->
+    <div class="titulo-3">Explora Más</div>
+
+    <!-- 4 IMÁGENES CLICABLES -->
+    <div id="link-3" class="img-3"></div>
+    <div id="link-4" class="img-4"></div>
+    <div id="link-5" class="img-5"></div>
+    <div id="link-6" class="img-6"></div>
+
+    <!-- TEXTOS BAJO IMÁGENES -->
+    <div class="txt-3">NASA: Información oficial sobre Marte</div>
+    <div class="txt-4">Historia y mitología del planeta</div>
+    <div class="txt-5">¿De qué está hecho Marte?</div>
+    <div class="txt-6">Exploración espacial del planeta rojo</div>
+
+    <!-- LÍNEA -->
+    <div class="linea"></div>
+
+     <!-- NÚMEROS -->
+    <div class="numeros">
+    <div class="num-txt-1">3,389.5 <span>Kilometros de superficie</span></div>
+    <div class="num-txt-2">4,000 <span>Millones de años</span></div>
+    <div class="num-txt-3">24:37 H <span>Lo que dura su "dia"</span></div>
+    <div class="num-txt-4">687 días <span>Forman su año en Marte</span></div>
+</div>
+
+<div class="linea-2"></div>
+  
+  <!--FOOTER-->
+  <!-- FOOTER -->
+  <div class="footer-logo"><span>MARTE<br>EL PLANETA</span></div>
+
+<div class="footer-links">
+Company<br>
+People<br>
+Diversity<br>
+History<br>
+Awards and Recognition<br>
+Social Responsibility<br><br>
+
+Journalism<br>
+Experience<br><br>
+
+Careers<br>
+Newsroom<br>
+Technology<br>
+Product and Design<br>
+Marketing
+  <br>
+  <br>
+  <br>
+</div>
+  
+  <div class="footer-links1">
+    Investors<br>
+    <br>Collaborate<br>
+    <br>Contact<br>
+    Press<br>
+    Calendar<br>
+    <br>Privacy Policy
+    <br>Terms of Service<br>
+    California Notice</div>
+
+<script src="script.js"></script>
+
+</section>
+<!-- ========================================================= -->
+<!-- ======================= VENUS =========================== -->
+<!-- ========================================================= -->
+<section id="venus" class="page">
+
+    <!-- Bloque superior estilo revista -->
+    <div style="display: flex; gap: 40px; padding: 20px;">
+       
+        <!-- Texto a la izquierda -->
+        <div style="width: 45%;">
+            <h1 style="margin-top: 0;">VENUS</h1>
+            <p>
+                Venus es el segundo planeta del Sistema Solar y el más parecido a la Tierra en tamaño.
+                Sin embargo, su atmósfera densa provoca temperaturas superiores a los 465°C, convirtiéndolo
+                en el planeta más caliente.
+            </p>
+        </div>
+
+        <!-- Imagen a la derecha -->
+        <div style="width: 55%;">
+            <img src="https://spaceplace.nasa.gov/review/all-about-venus/venus2.sp.jpg"
+                class="img-venus">
+            <p style="font-size: 10px; opacity: 0.7; margin-top: 6px;">
+                Esta es una combinación de imágenes tomadas por la sonda Magellan. Los colores se han modificado para que se puedan apreciar las diferencias en la superficie de Venus. Magellan utilizó radar para obtener información sobre la superficie de Venus, que normalmente no podemos ver debido a su densa y nubosa atmósfera
+            </p>
+        </div>
+    </div>
+ 
+
+    <!-- Barra destacada -->
+    <div style="
+        background: var(--accent-strong);
+        padding: 12px;
+        text-align: left;
+        color: white;
+        margin: 35px 0;
+        border-radius: 1px;
+        font-weight: bold;">
+        El planeta más caliente del Sistema Solar
+    </div>
+
+    <!-- Imagen secundaria -->
+    <div style="margin-top: 25px;">
+        <img src="https://media.istockphoto.com/id/524200177/photo/venus.jpg?s=612x612&w=0&k=20&c=OKRm7ZuUvJ9NvSM1ldJEtYV4UqDNicSDjS5Fd95HJ2k="
+            class="img-venus">
+        <p style="font-size: 12px; opacity: 0.7; margin-top: 6px; text-align:center;">
+            Modelo digital de la superficie de Venus basado en radar.
+        </p>
+    </div>
+
+    <!-- Título galería -->
+    <h2 style="margin-top: 35px;">Explora Más</h2>
+
+    <!-- Galería -->
+    <div style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-top: 20px;">
+
+        <div>
+           <img src="https://spaceplace.nasa.gov/review/all-about-venus/Venus_Clouds_br.sp.jpg"
+                 class="img-venus">
+            <p>Nubes cubriendo venus</p>
+        </div>
+
+        <div>
+           <img src="https://www.reprodart.com/kunst/sandro_botticelli/Die-Geburt-der-Venus-1.jpg"
+                 class="img-venus">
+            <p>Venus en la mitologia</p>
+        </div>
+
+        <div>
+            <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia13/pia13001/PIA13001.jpg?w=1920&h=1080&fit=crop&crop=faces%2Cfocalpoint"
+                 class="img-venus">
+            <p>Un cráter en la superficie de Venus. Mide 45 millas (72 km) de ancho.</p>
+        </div>
+    </div>
+<!-- FOOTER -->
+<!-- FOOTER VENUS - IGUAL QUE EN MARTE -->
+<div class="footer-logo" style="position:absolute; top:2300px; left:120px; font-size:22px; line-height:24px; text-align:center;">
+    VENUS<br>EL PLANETA
+</div>
+
+<div class="footer-links" style="position:absolute; top:2300px; left:1250px; font-size:14px; line-height:18px;">
+    Company<br>
+    People<br>
+    Diversity<br>
+    History<br>
+    Awards and Recognition<br>
+    Social Responsibility<br><br>
+    Journalism<br>
+    Experience<br><br>
+    Careers<br>
+    Newsroom<br>
+    Technology<br>
+    Product and Design<br>
+    Marketing
+</div>
+
+<div class="footer-links1" style="position:absolute; top:2300px; left:1450px; font-size:14px; line-height:18px;">
+    Investors<br><br>
+    Collaborate<br><br>
+    Contact<br>
+    Press<br>
+    Calendar<br><br>
+    Privacy Policy<br>
+    Terms of Service<br>
+    California Notice
+</div>
+<script src="script.js"></script>
+
+</section>
+  
+  <!--jupiter-->
+  
+
+  
+  
+  
+<section id="jupiter" class="page jupiter" style="position:relative; min-height:2000px;">
+    <h1>JÚPITER</h1>
+
+    <!-- BLOQUE INFORMACIÓN PRINCIPAL -->
+    <div class="jupiter-header" style="position:relative; margin-bottom: 30px;">
+        <div class="logo1" style="font-size:20px; color:var(--text-light);">
+            Júpiter es el planeta más grande y masivo del sistema solar. Contiene más del doble de la masa de todos los demás planetas juntos. Es parecido a una estrella, pero nunca tuvo la masa suficiente para comenzar a arder. Es un gigante gaseoso y no tiene una superficie sólida, también tiene anillos, pero son demasiado tenues para verlos con claridad.
+        </div>
+    </div>
+
+    <p style="color:var(--text-light); font-size:16px;">MÁS INFORMACIÓN</p>
+
+    <!-- CAJITAS PRINCIPALES -->
+    <div class="jupiter-cajitas" style="position:relative;">
+        <div class="cajita" style="position:absolute; top:50px; left:50px; width:550px; height:80px; color:var(--text-light);">
+            <b>Júpiter tiene más de 75 lunas, algunas de las cuales son más grandes que el planeta Mercurio.</b>
+        </div>
+        <div class="cajita1" style="position:absolute; top:0px; left:850px; width:550px; height:300px; background-image:url('https://static.independentespanol.com/2022/07/22/11/jupiter_rings_bright.jpg'); background-size:cover; background-position:center;"></div>
+      <div class="cajita2" style="position:absolute; top:310px; left:850px; width:225px; height:110px; color:var(--text-light);">
+            Las cuatro lunas más grandes, conocidas como las "lunas galileanas", fueron descubiertas por Galileo Galilei en 1610.
+        </div>
+        <div class="cajita3" style="position:absolute; top:310px; left:1110px; width:255px; height:110px; color:var(--text-light); text-align:;">
+            Júpiter es el quinto planeta desde el Sol, probablemente se formó en una enorme y antigua nube de gas, polvo y hielo que colapsó formando un disco giratorio.
+        </div>
+    </div>
+
+    <!-- IMÁGENES DESTACADAS -->
+    <div class="jupiter-images" style="position:relative; margin-top:400px;">
+        <p style="color:var(--text-light);">MÁS IMÁGENES</p>
+      
+        <div class="cajita4" style="position:absolute; top:80px; left:0px; width:300px; height:300px; background-image:url('https://spaceplace.nasa.gov/all-about-jupiter/sp/jupiter_auroras.sp.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita5" style="position:absolute; top:80px; left:400px; width:300px; height:303px; background-image:url('https://discoverexperience.com/wp-content/uploads/2023/07/J%C3%BApiter.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita6" style="position:absolute; top:80px; left:800px; width:300px; height:300px; background-image:url('https://cdn.eso.org/images/screen/eso0833a.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita7" style="position:absolute; top:80px; left:1200px; width:300px; height:300px; background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rQa9Yie8JNiiOsD6xCfaBx-wQv0SY8ogiw&s'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita8" style="position:absolute; top:400px; left:20px; width:260px; height:120px; color:var(--text-light); text-align:center;">Todo sobre Júpiter</div>
+      
+        <div class="cajita9" style="position:absolute; top:400px; left:420px; width:260px; height:120px; color:var(--text-light); text-align:center;">Júpiter, el gigante del sistema solar</div>
+      
+        <div class="cajita10" style="position:absolute; top:400px; left:820px; width:260px; height:120px; color:var(--text-light); text-align:center;">La imagen más nítida de Júpiter</div>
+      
+        <div class="cajita11" style="position:absolute; top:400px; left:1220px; width:260px; height:120px; color:var(--text-light); text-align:center;">Los misterios de Júpiter expuestos en detalle multicolor</div>
+    </div>
+
+    <!-- GALERÍA INTERACTIVA -->
+    <div class="jupiter-galeria" style="position:relative; margin-top:500px;">
+        <div class="cajita12" style="position:absolute; top:0px; left:0px; width:450px; height:268px; background-image:url('https://i.blogs.es/8afff8/marte-noticia-706394/450_1000.webp'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita13" style="position:absolute; top:0px; left:540px; width:409px; height:270px; background-image:url('https://wallpapers.com/images/hd/venus-pictures-hbut4bhf6uet45xn.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita14" style="position:absolute; top:0px; left:1050px; width:450px; height:270px; background-image:url('https://cdn.hispantv.com/hispanmedia/files/images/thumbnail/20181130/07085311_xl.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita15" style="position:absolute; top:300px; left:170px;"><button><b>MARTE</b></button></div>
+        <div class="cajita16" style="position:absolute; top:300px; left:680px;"><button><b>VENUS</b></button></div>
+        <div class="cajita17" style="position:absolute; top:300px; left:1240px;"><button><b>SOL</b></button></div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="jupiter-footer" style="position:relative; margin-top:650px;">
+      
+        <div class="cajita18" style="position:absolute; top:300px; left:50px; width:280px; height:250px; background-image:url('https://static.vecteezy.com/system/resources/previews/021/635/276/non_2x/jupiter-planet-company-brand-logo-vector.jpg'); background-size:cover; border:2px solid var(--text-light); border-radius:10px;"></div>
+      
+        <div class="cajita19" style="position:absolute; top:0px; left:1480px; width:200px; height:350px; background-color:#; border-radius:10px;"></div>
+      
+        <div class="cajita20" style="position:absolute; top:0px; left:1800px; width:170px; height:350px; background-color:#; border-radius:10px;"></div>
+
+        <div class="footer-links" style="position:absolute; top:360px; left:800px; font-size:14px; line-height:18px; color:var(--text-light); text-align:right;">
+            Company<br>People<br>Diversity<br>History<br>Awards and Recognition<br>Social Responsibility<br><br>
+            Journalism<br>Experience<br><br>
+            Careers<br>Newsroom<br>Technology<br>Product and Design<br>Marketing
+        </div>
+
+        <div class="footer-links1" style="position:absolute; top:360px; left:1000px; font-size:14px; line-height:18px; color:var(--text-light); text-align:right;">
+            Investors<br><br>Collaborate<br><br>Contact<br>Press<br>Calendar<br><br>Privacy Policy<br>Terms of Service<br>California Notice
+        </div>
+    </div>
+</section>
+
+  
+  <!-- ========================================================= -->
+<!-- ======================= SOL ========================== -->
+<!-- ========================================================= -->
+<section id="sol" class="page" style="display:block;">
+   <!-- ===================== HERO ===================== -->
+    <!-- Imagen principal. IMPORTANTE: aquí está la imagen grande del Sol -->
+    <div class="hero">
+        <img id="heroImage" src="https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?cs=srgb&dl=pexels-pixabay-301599.jpg&fm=jpg" alt="Ilustración del Sol">
+    </div>
+
+    <!-- ===================== SECCIÓN PRINCIPAL "El Sol" ===================== -->
+    <section class="section">
+        <h2>El Sol</h2>
+        <p class="subtitulo">Explora nuestra estrella más cercana y descubre cómo hace posible la vida en la Tierra.</p>
+        <a class="btn" onclick="alert('Pronto tendrás más información ☀️')">Más información</a>
+    </section>
+
+    <!-- ===================== COLUMNAS ===================== -->
+    <!-- Aquí se distribuye el texto en columnas mediante CSS Grid -->
+    <section class="section docolumnas">
+        <div>
+            <p>El Sol es una estrella de tipo G2V que se encuentra en el centro del Sistema Solar. Proporciona luz, calor y energía fundamental para los procesos terrestres.</p>
+        </div>
+        <div>
+            <p>La energía solar se genera mediante la fusión nuclear en su núcleo, donde enormes cantidades de hidrógeno se transforman en helio liberando energía.</p>
+        </div>
+    </section>
+
+    <!-- ===================== CARACTERÍSTICAS DEL SOL ===================== -->
+    <section class="section">
+        <h2>Características del Sol</h2>
+        <ul>
+            <li>Su temperatura superficial es de ~5,500 °C.</li>
+            <li>En su núcleo alcanza más de 15 millones de °C.</li>
+            <li>Contiene el 99.86% de toda la masa del Sistema Solar.</li>
+            <li>Su luz tarda 8 minutos con 20 segundos en llegar a la Tierra.</li>
+            <li>Es una esfera casi perfecta compuesta principalmente de hidrógeno y helio.</li>
+        </ul>
+    </section>
+
+    <!-- ===================== GALERÍA DE IMÁGENES ===================== -->
+    <!-- Aquí están las 4 imágenes pequeñas. Se controla su posición con CSS Grid (grid-personas). -->
+ 
+
+    <section class="section">
+        <h2>Representaciones del Sol</h2>
+
+        <div class="grid-personas">
+            <div class="persona">
+                <img src="https://wallpapercave.com/wp/wp1931579.jpg" alt="" onclick="zoomImage(this)">
+                <h4>Sol Amanecer</h4>
+            </div>
+            <div class="persona">
+                <img src="https://phantom-elmundo.unidadeditorial.es/3767ea97a59b73665932b6c610e572b4/assets/multimedia/imagenes/2024/06/25/17193207483388.png" alt="" onclick="zoomImage(this)">
+                <h4>Sol Activo</h4>
+            </div>
+            <div class="persona">
+                <img src="https://www.postposmo.com/wp-content/uploads/2020/05/Manchas-Solares-6.jpg" alt="" onclick="zoomImage(this)">
+                <h4>Manchas Solares</h4>
+            </div>
+            <div class="persona">
+                <img src="https://www.muyinteresante.com/wp-content/uploads/sites/5/2024/08/17/66c0d479e5453.jpeg" alt="" onclick="zoomImage(this)">
+                <h4>Erupción Solar</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PREGUNTAS FRECUENTES ===================== -->
+    <!-- Cada pregunta se abre/cierra con JS usando toggleRespuesta() -->
+    <section class="section">
+        <h2>Preguntas frecuentes</h2>
+
+        <div class="dos-columnas">
+            <div>
+                <p class="preg" onclick="toggleRespuesta(this)">¿El Sol algún día se apagará?</p>
+                <p class="respuesta">Sí, pero no pronto. En unos 5 mil millones de años agotará su hidrógeno y se convertirá en una gigante roja antes de colapsar en una enana blanca.</p>
+
+                <p class="preg" onclick="toggleRespuesta(this)">¿Por qué el Sol se ve amarillo desde la Tierra?</p>
+                <p class="respuesta">Aunque su color real es blanco, la atmósfera filtra algunas longitudes de onda, haciéndolo parecer amarillo.</p>
+            </div>
+
+            <div>
+                <p class="preg" onclick="toggleRespuesta(this)">¿Qué tan grande es el Sol?</p>
+                <p class="respuesta">Es tan grande que cabrían más de un millón de Tierras dentro de él. Tiene un diámetro de 1.39 millones de kilómetros.</p>
+
+                <p class="preg" onclick="toggleRespuesta(this)">¿Qué es una tormenta solar?</p>
+                <p class="respuesta">Es una explosión de energía desde la superficie solar que puede afectar satélites, comunicaciones y causar auroras en la Tierra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="footer-col">
+            <h4>Mi Proyecto</h4>
+            <div>Sobre el Sol</div>
+            <div>Física solar</div>
+            <div>Galaxias</div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Información</h4>
+            <div>Investigación</div>
+            <div>Datos rápidos</div>
+            <div>Historia</div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contacto</h4>
+            <div>Correo</div>
+            <div>Soporte</div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
